@@ -9,15 +9,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".dangnhap.LoginActivity">
+        <activity android:name="development.mobile.quanlynhahang.code.dangnhap.LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".phucvuchonban.PhucVuActivity" />
-        <activity android:name=".goimon.GoiMonActivity">
+        <activity android:name="development.mobile.quanlynhahang.code.phucvuchonban.PhucVuActivity" />
+        <activity android:name="development.mobile.quanlynhahang.code.goimon.GoiMonActivity">
 
         </activity>
     </application>

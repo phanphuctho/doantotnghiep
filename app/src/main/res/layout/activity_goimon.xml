@@ -5,11 +5,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".goimon.GoiMonActivity">
+    tools:context="development.mobile.quanlynhahang.code.goimon.GoiMonActivity">
 
     <fragment
         android:id="@+id/monDangGoiFrag"
-        android:name="development.mobile.tuanhoang.code.goimon.DSMonDangGoiFragment"
+        android:name="development.mobile.quanlynhahang.code.goimon.DSMonDangGoiFragment"
         android:layout_width="match_parent"
         android:layout_height="250dp" />
 
@@ -86,7 +86,7 @@
 
         <fragment
             android:id="@+id/nhomHangFrag"
-            android:name="development.mobile.tuanhoang.code.goimon.DSNhomHangFragment"
+            android:name="development.mobile.quanlynhahang.code.goimon.DSNhomHangFragment"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_marginLeft="3dp"
@@ -94,7 +94,7 @@
 
         <fragment
             android:id="@+id/monAnFrag"
-            android:name="development.mobile.tuanhoang.code.goimon.DSMonAnFragment"
+            android:name="development.mobile.quanlynhahang.code.goimon.DSMonAnFragment"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="7" />

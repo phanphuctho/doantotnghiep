@@ -1,4 +1,4 @@
-package development.mobile.tuanhoang.code.entity;
+package development.mobile.quanlynhahang.code.entity;
 
 public class Ban {
     private String maBan;

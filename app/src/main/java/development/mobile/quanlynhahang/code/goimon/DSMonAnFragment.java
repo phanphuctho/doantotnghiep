@@ -1,4 +1,4 @@
-package development.mobile.tuanhoang.code.goimon;
+package development.mobile.quanlynhahang.code.goimon;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -19,7 +19,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import development.mobile.tuanhoang.code.R;
-import development.mobile.tuanhoang.code.entity.MonAn;
+import development.mobile.quanlynhahang.code.entity.MonAn;
 
 public class DSMonAnFragment extends Fragment {
     private List<MonAn> monAnLst;

@@ -1,4 +1,4 @@
-package development.mobile.tuanhoang.code.phucvuchonban;
+package development.mobile.quanlynhahang.code.phucvuchonban;
 
 
 import android.content.Intent;
@@ -14,30 +14,19 @@ import android.widget.GridView;
 import android.widget.Spinner;
 import android.widget.Toast;
 
-import com.google.firebase.database.ChildEventListener;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
-import java.text.SimpleDateFormat;
 import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Comparator;
-import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
-import java.util.Random;
 
 import development.mobile.tuanhoang.code.R;
-import development.mobile.tuanhoang.code.entity.Ban;
-import development.mobile.tuanhoang.code.entity.ChiTietHoaDon;
-import development.mobile.tuanhoang.code.entity.ChiTietPhieuDatTruoc;
-import development.mobile.tuanhoang.code.entity.HoaDon;
-import development.mobile.tuanhoang.code.entity.NhanVien;
-import development.mobile.tuanhoang.code.entity.PhieuDatTruoc;
-import development.mobile.tuanhoang.code.goimon.GoiMonActivity;
+import development.mobile.quanlynhahang.code.entity.Ban;
+import development.mobile.quanlynhahang.code.goimon.GoiMonActivity;
 
 
 public class BanTrongFragment extends Fragment {

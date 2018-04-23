@@ -1,4 +1,4 @@
-package development.mobile.tuanhoang.code.goimon;
+package development.mobile.quanlynhahang.code.goimon;
 
 import android.app.Activity;
 import android.view.LayoutInflater;
@@ -8,11 +8,10 @@ import android.widget.ArrayAdapter;
 import android.widget.TextView;
 
 import java.text.NumberFormat;
-import java.util.ArrayList;
 import java.util.List;
 
 import development.mobile.tuanhoang.code.R;
-import development.mobile.tuanhoang.code.entity.MonAn;
+import development.mobile.quanlynhahang.code.entity.MonAn;
 
 public class GridViewMonAnAdapter extends ArrayAdapter<MonAn> {
     private Activity context = null;

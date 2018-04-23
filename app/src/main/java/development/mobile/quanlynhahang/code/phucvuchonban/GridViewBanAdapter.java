@@ -1,4 +1,4 @@
-package development.mobile.tuanhoang.code.phucvuchonban;
+package development.mobile.quanlynhahang.code.phucvuchonban;
 
 import android.app.Activity;
 import android.view.LayoutInflater;
@@ -12,7 +12,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import development.mobile.tuanhoang.code.R;
-import development.mobile.tuanhoang.code.entity.Ban;
+import development.mobile.quanlynhahang.code.entity.Ban;
 
 public class GridViewBanAdapter extends ArrayAdapter<Ban> {
     private Activity context = null;

@@ -1,4 +1,4 @@
-package development.mobile.tuanhoang.code.dangnhap;
+package development.mobile.quanlynhahang.code.dangnhap;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -16,7 +16,7 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
-import development.mobile.tuanhoang.code.phucvuchonban.PhucVuActivity;
+import development.mobile.quanlynhahang.code.phucvuchonban.PhucVuActivity;
 import development.mobile.tuanhoang.code.R;
 
 public class LoginActivity extends AppCompatActivity {

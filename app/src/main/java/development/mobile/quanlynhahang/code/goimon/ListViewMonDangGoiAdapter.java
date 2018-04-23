@@ -1,12 +1,10 @@
-package development.mobile.tuanhoang.code.goimon;
+package development.mobile.quanlynhahang.code.goimon;
 
 import android.app.Activity;
-import android.graphics.Color;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
-import android.widget.LinearLayout;
 import android.widget.NumberPicker;
 import android.widget.TextView;
 
@@ -14,7 +12,7 @@ import java.text.NumberFormat;
 import java.util.List;
 
 import development.mobile.tuanhoang.code.R;
-import development.mobile.tuanhoang.code.entity.MonAn;
+import development.mobile.quanlynhahang.code.entity.MonAn;
 
 public class ListViewMonDangGoiAdapter extends ArrayAdapter<MonAn> {
     private Activity context = null;

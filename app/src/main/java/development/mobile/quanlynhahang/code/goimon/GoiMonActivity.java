@@ -1,6 +1,5 @@
-package development.mobile.tuanhoang.code.goimon;
+package development.mobile.quanlynhahang.code.goimon;
 
-import android.content.Intent;
 import android.content.pm.ActivityInfo;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -13,12 +12,11 @@ import java.text.NumberFormat;
 import java.util.ArrayList;
 
 import development.mobile.tuanhoang.code.R;
-import development.mobile.tuanhoang.code.entity.MonAn;
-import development.mobile.tuanhoang.code.goimon.DSNhomHangFragment.SendTenNhomHang;
-import development.mobile.tuanhoang.code.goimon.DSMonAnFragment.SendMonAn;
+import development.mobile.quanlynhahang.code.entity.MonAn;
+import development.mobile.quanlynhahang.code.goimon.DSNhomHangFragment.SendTenNhomHang;
 
 
-public class GoiMonActivity extends AppCompatActivity implements SendTenNhomHang, SendMonAn {
+public class GoiMonActivity extends AppCompatActivity implements SendTenNhomHang, DSMonAnFragment.SendMonAn {
     private FirebaseDatabase database = FirebaseDatabase.getInstance();
     private DatabaseReference myRef = database.getReference();
     private ArrayList<String> banSelected = new ArrayList<String>();
